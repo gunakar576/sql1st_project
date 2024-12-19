@@ -18,4 +18,8 @@ This project highlights the development of a Library Management System leveragin
 - **CRUD Functionality**: Implement robust Create, Read, Update, and Delete operations to manage the library's data effectively.  
 - **Advanced Query Implementation**: Develop and execute complex SQL queries for data analysis and reporting.  
 - **Optimization**: Demonstrate best practices in database optimization and query performance enhancement.  
-- **Skill Development**: Showcase proficiency in SQL for database management, manipulation, and query execution through a practical application.  
+- **Skill Development**: Showcase proficiency in SQL for database management, manipulation, and query execution through a practical application.
+
+  # PROJECT STRUCTURE
+  ## DATABASE SETUP
+  
