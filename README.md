@@ -11,7 +11,11 @@ This project highlights the development of a Library Management System leveragin
 
 # Aims of the Project 
 
-1. **Database Setup**: Design and initialize a Library Management System database with tables for branches, employees, members, books, issued status, and return status, including populating the database with sample data.  
-2. **CRUD Operations**: Execute Create, Read, Update, and Delete operations to effectively manage the data.  
-3. **CTAS (Create Table As Select)**: Leverage CTAS to generate new tables derived from query results for specific use cases.  
-4. **Advanced SQL Queries**: Craft and execute complex queries to analyze data and retrieve insights.  
+### Aims of the Project  
+
+- **Database Design**: Create a well-structured database schema tailored for a Library Management System, ensuring data integrity and normalization.  
+- **Comprehensive Data Management**: Facilitate efficient handling of library operations, including tracking branches, employees, members, books, and loan statuses.  
+- **CRUD Functionality**: Implement robust Create, Read, Update, and Delete operations to manage the library's data effectively.  
+- **Advanced Query Implementation**: Develop and execute complex SQL queries for data analysis and reporting.  
+- **Optimization**: Demonstrate best practices in database optimization and query performance enhancement.  
+- **Skill Development**: Showcase proficiency in SQL for database management, manipulation, and query execution through a practical application.  
