@@ -23,7 +23,7 @@ This project highlights the development of a Library Management System leveragin
   # PROJECT STRUCTURE
   ## DATABASE SETUP
 
-  CREATE DATABASE library_db;
+  --CREATE DATABASE library_db;
 
 DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
@@ -104,4 +104,14 @@ CREATE TABLE return_status
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 );
 
-  
+  ## Sample SQL Query  
+
+To retrieve all books issued to a specific member, you can use the following query:  
+
+```sql
+SELECT b.book_id, b.title, m.member_name, i.issue_date  
+FROM books b  
+JOIN issued_status i ON b.book_id = i.book_id  
+JOIN members m ON i.member_id = m.member_id  
+WHERE m.member_id = 101;  
+
